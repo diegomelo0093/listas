@@ -20,10 +20,7 @@ import java.util.TreeMap;
 public class Colecciones {
     
     public static void main(String[] args) {
-        Scanner leer=new Scanner(System.in);
-        
-        Empleado e=new Empleado();
-        e.cuerpo();
+      Menu.mostrarMenu();  
     }
     
 }
